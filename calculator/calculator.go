@@ -1,5 +1,7 @@
 // Package does simple calculation
 package calculator
+import "errors"
+import "math"
 
 // Add takes two numbers and returns the result of adding them together
 func Add(a, b float64) float64 {
@@ -15,5 +17,15 @@ func Multiply(a,b float64) float64 {
 }
 
 func Divide(a,b float64) (float64, error) {
+	if b == 0 {
+		return 0, errors.New("Division by zero not allowed")
+	}
 	return a / b , nil
+}
+
+func Sqrt(a float64) (float64, error) {
+	if a < 0 {
+		return 0, errors.New("cannot calculate squre root of negative number")
+	}
+	return math.Sqrt(a), nil
 }
