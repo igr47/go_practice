@@ -2,6 +2,29 @@ package main
 
 import "fmt"
 
+func iterateMaps() {
+	fruits := map[string]float64{
+		"apple": 1.99,
+		"banana": 0.59,
+		"orange": 0.79,
+	}
+
+	// Iterate over keys and values 
+	for key, value := range fruits {
+		fmt.Printf("%s costs $%.2f\n", key, value)
+	}
+
+	// Itterates over keys only
+	for key := range fruits {
+		fmt.Println(key)
+	}
+
+	// Iterate over values only
+	for _, value := range fruits {
+		fmt.Printf("$%.2f\n", value)
+	}
+}
+
 func main()  {
 	// Method 1: Using make 
 	map1 := make(map[string]int)
@@ -43,4 +66,6 @@ func main()  {
 
 	// Length 
 	fmt.Println("Length:", len(map2))
+
+	iterateMaps()
 }
