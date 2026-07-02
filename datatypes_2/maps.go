@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Go practice
+
 func iterateMaps() {
 	fruits := map[string]float64{
 		"apple": 1.99,
