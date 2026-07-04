@@ -1,4 +1,4 @@
-/*package main
+package main
 
 import "fmt"
 
@@ -9,7 +9,7 @@ func main()  {
 	copies = 99
 	fmt.Println(title)
 	fmt.Println(copies)
-}*/
+}
 
 /*package main
 
