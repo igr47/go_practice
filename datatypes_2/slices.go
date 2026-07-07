@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+// Demostrating working with slices. 
 
 func demonstrateCapacity() {
 	s := make([]int, 0, 3)
