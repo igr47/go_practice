@@ -39,9 +39,9 @@ func main()  {
 	fmt.Println("Copied %d elements: %v\n", copied, dest)
 
 	// Slicing operations 
-	fmt.Println(slice3[2:5])
-	fmt.Println(slice3[:3])
-	fmt.Println(slice3[5:])
+	//fmt.Println(slice3[2:5])
+	//fmt.Println(slice3[:3])
+	//fmt.Println(slice3[5:])
 
 	demonstrateCapacity()
 }
