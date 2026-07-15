@@ -11,7 +11,7 @@ func main()  {
 	fmt.Println(copies)
 }
 
-/*package main
+package main
 
 import "fmt"
 
@@ -25,7 +25,7 @@ func main()  {
 	copies = 99
 	name = "Gorge RR Martin"
 	printTitle(title)
-}*/
+}
 
 package main
 
