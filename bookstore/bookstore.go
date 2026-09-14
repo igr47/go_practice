@@ -5,6 +5,7 @@ import (
 )
 
 // Commented here.
+// New comment
 
 type Book struct {
 	Title string
