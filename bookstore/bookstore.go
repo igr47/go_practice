@@ -4,6 +4,8 @@ import (
 	"errors"
 )
 
+// Commented here.
+
 type Book struct {
 	Title string
 	Author string
